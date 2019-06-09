@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Быстрая доставка из любимых ресторанов | Uber Eats</title>
+    
+    <link rel="shortcut icon" type="png" href="./images/icons/uber2.png"/>
+
+   
+    <link rel="stylesheet" href="./style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap&subset=cyrillic-ext" rel="stylesheet">
+        
+  </head>
+
+  <body>
+
+<!-- HEADER -->
+
+    <header>
+
+      <div class="header-box">
+
+        <section class="header-box__logo">
+         <a href="#"> <img src="./images/icons/logo.svg" alt="uberEats"> </a>
+        </section>
+
+        <section class="header-box__location">         
+          <select class="header-box__asap">
+            <option>ASAP</option>
+            <option>TIME</option>
+          </select>
+          
+          <span class="to">to</span>
+
+          <div class="header-box__delivery-location">
+            <a class="delivery-location_location-img" href="#"></a>
+            <label for="search">
+              <input type="text" class="delivery-location_address" placeholder="ul. Tarasivska St, 16">
+            </label>
+          </div>
+        </section>
+
+        <section class="header-box__nav">
+          <div class="header-box__auth">
+            <div class="auth_signin">
+              <a href="#">Sign in</a>
+            </div>
+            <div class="auth_register">
+              <a href="#">Register</a>
+            </div>
+          </div>
+          
+          <div class="header-box__basket"></div> 
+
+        </section>
+
+      </div>
+    </header>
+
+    <main>
+      
+
+<!-- SEARCH -->
+      
+      
+      <section class="search-box">
+        <div class="search-box__search-container">
+          <a class="search-box__search-img" href="#"></a>
+          <form class="search-box__input">
+            <input type="text" autocomplete="off" 
+                               class="restaurants-search" 
+                               placeholder="Search for restaurant or cuisine">
+            <input class="search-box__del-text-btn" type="reset" value="X">
+          </form> 
+        </div>
+      </section>
+
+
+<!-- MOBILE-SEARCH -->
+
+
+      <section class="search-box--mobile">         
+          
+        <div>
+          <p class="search-box_when--mobile">When</p> 
+          <select class="search-box__asap--mobile">
+            <option>ASAP</option>
+            <option>TIME</option>
+          </select>
+        </div>
+
+        <div class="search-box__delivery-location--mobile">
+          <a class="location-img--mobile" href="#"></a>
+          <label for="search--mobile">
+            <p>To</p>
+            <input type="text" 
+              class="address--mobile" 
+              value="ul. Tarasivska St, 16">
+          </label>
+        </div>
+      </section>
+
+
+<!-- TEXT -->
+
+      <section class="title-box">    
+        Kyiv Restaurants
+      </section>
+
+
+<!-- CATALOG-START -->
+
+      <div class="catalog-box">
+        
+    <!--  -->
+        
+        <div class="catalog-box__reastor-card">
+          <div class="catalog-box__img-box">
+            <img class="catalog-box__img" 
+                  src="./images/mcdonalds.jpg" 
+                  alt="MacDonalds">
+          </div>
+
+          <section class="catalog-box__info-box">
+            <span class="catalog-box__restaurant-name">
+              Макдоналдс
+            </span>
+            <div class="catalog-box__description">
+              <div class="catalog-box__currency"> 
+                ₴₴ 
+              </div>
+              <ul class="catalog-box__food-style">
+                <li>
+                  Бургери
+                </li>
+              </ul> 
+            </div>
+            <div class="catalog-box__waiting-time">
+              25 - 35 Min 
+            </div>
+          </section>
+          
+        </div>
+          
+    <!--  -->
+
+        <div class="catalog-box__reastor-card">
+          <div class="catalog-box__img-box">
+            <img class="catalog-box__img" 
+                  src="./images/wokwei.jpg" 
+                  alt="WOKWEI">
+          </div>
+
+          <section class="catalog-box__info-box">
+            <span class="catalog-box__restaurant-name">
+              WOKWEI
+            </span>
+            <div class="catalog-box__description">
+              <div class="catalog-box__currency"> 
+                ₴
+              </div>
+              <ul class="catalog-box__food-style">
+                <li>
+                  Китайська
+                </li>
+                <li>
+                  Азіатська
+                </li>
+              </ul> 
+            </div>
+            <div class="catalog-box__waiting-time">
+              40 - 50 Min
+            </div>
+          </section>
+          
+        </div>
+
+    <!--  -->
+
+        <div class="catalog-box__reastor-card">
+          <div class="catalog-box__img-box">
+            <img  class="catalog-box__img" 
+                  src="./images/yizha.jpg" 
+                  alt="YIZHA">
+          </div>
+
+          <section class="catalog-box__info-box">
+            <span class="catalog-box__restaurant-name">
+              YIZHA
+            </span>
+            <div class="catalog-box__description">
+              <div class="catalog-box__currency"> 
+                ₴₴ 
+              </div>
+              <ul class="catalog-box__food-style">
+                <li>
+                  Американська
+                </li>
+                <li>
+                  Бургери
+                </li>
+                <li>
+                  Вулична їжа
+                </li>
+              </ul> 
+            </div>
+            <div class="catalog-box__waiting-time">
+              35 - 45 Min 
+            </div>
+          </section>
+          
+        </div>
+          
+    <!--  -->
+
+          <div class="catalog-box__reastor-card">    
+            <div class="catalog-box__img-box">
+              <img class="catalog-box__img" 
+                    src="./images/musafur.jpg" 
+                    alt="Musafir">
+            </div>
+
+            <section class="catalog-box__info-box">
+              <span class="catalog-box__restaurant-name">
+                Musafir (вул. Саксаганського)
+              </span>
+              <div class="catalog-box__description">
+                <div class="catalog-box__currency"> 
+                  ₴₴ 
+                </div>
+                <ul class="catalog-box__food-style">
+                  <li>
+                    Близькосхідна
+                  </li>
+                </ul> 
+              </div>
+              <div class="catalog-box__waiting-time">
+                30 - 40 Min 
+              </div>
+            </section>
+          
+          </div>
+          
+    <!--  -->
+
+          <div class="catalog-box__reastor-card">  
+            <div class="catalog-box__img-box">
+              <img class="catalog-box__img" 
+                    src="./images/wokwei2.jpg" 
+                    alt="WOKWEI">
+            </div>
+
+            <section class="catalog-box__info-box">
+              <span class="catalog-box__restaurant-name">
+                WOKWEI
+              </span>
+              <div class="catalog-box__description">
+                <div class="catalog-box__currency"> 
+                  ₴
+                </div>
+                <ul class="catalog-box__food-style">
+                  <li>
+                    Китайська
+                  </li>
+                  <li>
+                    Азiатська
+                  </li>
+                </ul> 
+              </div>
+              <div class="catalog-box__waiting-time">
+                40 - 50 Min 
+              </div>
+            </section>
+          
+          </div>
+          
+
+    <!--  -->
+
+          <div class="catalog-box__reastor-card">
+            <div class="catalog-box__img-box">
+              <img class="catalog-box__img" 
+                    src="./images/milk-bar.jpg" 
+                    alt="MilkBar">
+            </div>
+
+            <section class="catalog-box__info-box">
+              <span class="catalog-box__restaurant-name">
+                Milk Bar
+              </span>
+              <div class="catalog-box__description">
+                <div class="catalog-box__currency"> 
+                  ₴₴
+                </div>
+                <ul class="catalog-box__food-style">
+                  <li>
+                    Десерти
+                  </li>
+                  <li>
+                    Європейська
+                  </li>
+                </ul> 
+              </div>
+              <div class="catalog-box__waiting-time">
+                25 - 35 Min 
+              </div>
+            </section>
+          
+          </div>
+          
+    <!--  -->
+            
+          <div class="catalog-box__reastor-card">
+            <div class="catalog-box__img-box">
+              <img class="catalog-box__img" 
+                    src="./images/mimosa-brooklyn-pizza.jpg" 
+                    alt="Mimosa Brooklyn Pizza">
+            </div>
+
+            <section class="catalog-box__info-box">
+              <span class="catalog-box__restaurant-name">
+                Mimosa Brooklyn Pizza
+              </span>
+              <div class="catalog-box__description">
+                <div class="catalog-box__currency"> 
+                  ₴₴
+                </div>
+                <ul class="catalog-box__food-style">
+                  <li>
+                    Італійська
+                  </li>
+                  <li>
+                    Піцца
+                  </li>
+                  <li>
+                    Американська
+                  </li>
+                </ul> 
+              </div>
+              <div class="catalog-box__waiting-time">
+                15 - 25 Min 
+              </div>
+            </section>
+          
+          </div>
+          
+    <!--  -->
+
+          <div class="catalog-box__reastor-card">  
+            <div class="catalog-box__img-box">
+              <img class="catalog-box__img" 
+                    src="./images/to-be.jpg" 
+                    alt="ToBe">
+            </div>
+            <section class="catalog-box__info-box">
+              <span class="catalog-box__restaurant-name">
+                To Be
+              </span>
+              <div class="catalog-box__description">
+                <div class="catalog-box__currency"> 
+                  ₴₴
+                </div>
+                <ul class="catalog-box__food-style">
+                  <li>
+                    Японська
+                  </li>
+                  <li>
+                    Азіатська
+                  </li>
+                  <li>
+                    Суші
+                  </li>
+                </ul> 
+              </div>
+              <div class="catalog-box__waiting-time">
+                25 - 35 Min 
+              </div>
+            </section>
+          
+          </div>
+          
+    <!--  -->
+
+          <div class="catalog-box__reastor-card">  
+            <div class="catalog-box__img-box">
+              <img class="catalog-box__img" 
+                    src="./images/druzi-cafe.jpg" 
+                    alt="Druzi">
+            </div>
+
+            <section class="catalog-box__info-box">
+              <span class="catalog-box__restaurant-name">
+                Druzi (вул. Прорiзна)
+              </span>
+              <div class="catalog-box__description">
+                <div class="catalog-box__currency"> 
+                  ₴₴
+                </div>
+                <ul class="catalog-box__food-style">
+                  <li>
+                    Американська
+                  </li>
+                  <li>
+                    Сучасна європейська
+                  </li>
+                </ul> 
+              </div>
+              <div class="catalog-box__waiting-time">
+                15 - 25 Min 
+              </div>
+            </section>
+          
+          </div>
+
+    <!--  -->
+      
+      </div>
+
+<!-- CATALOG END -->
+
+    </main>
+
+<!-- FOOTER -->
+
+    <footer>
+      <div class="footer-box">
+        <div class="footer-box__logo">
+          <a href="#"></a>
+        </div>
+        
+        <div class="footer-box__controls">
+          
+          <div class="footer-box__nav">
+          
+            <div class="language">
+              <select name="language">
+                <option value="ukraine">українська</option>
+                <option value="russian">русский</option>
+                <option value="english">english</option>
+              </select>
+            </div>
+            
+            <div class="social">
+              <a href="#/"></a>
+            </div>
+
+          </div>
+              
+          <div class="footer-box__nav">
+            <ul>
+              <li class="footer-link"><a href="#">About UberEats</a></li>
+              <li class="footer-link"><a href="#">Become a Delivery Partner</a></li>
+              <li class="footer-link"><a href="#">Become a Restaurant Partner</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-box__nav">
+            <ul>
+              <li class="footer-link"><a href="#">See all cities</a></li>
+              <li class="footer-link"><a href="#">Pricing</a></li>
+              <li class="footer-link"><a href="#">Help</a></li>
+              <li class="footer-link"><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="stores">
+          <div class="app-store">
+            <a href="#"></a>
+          </div>
+          <div class="g-play">
+            <a href="#"></a>
+          </div>
+        </div>
+        <div class="footer-box__privacy">
+          <a class="rights">
+            &copy 2019 Uber Technologies Inc
+          </a>
+          <a href="#" class="privacy-link">
+            Privacy
+          </a>
+          <a href="#" class="terms">
+            Terms
+          </a>
+            
+          <!-- BUTTON -->
+          <a href="#" class="btn-to-top" name="to-top" ></a>
+          <!-- BUTTON -->
+
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
