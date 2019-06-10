@@ -150,7 +150,7 @@ footer {
 .header-box .auth_register:hover {
   background-color: #11933a;
   color: #fff;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #000;
   border-radius: 6px;
   transform: scaleY(1.01);
 }
@@ -443,8 +443,8 @@ footer {
   text-decoration: none;
 }
 .footer-box .btn-to-top {
-  position: relative;
-  right: 20px;
+  display: inline-block;
+  z-index: 0;
   width: 80px;
   height: 80px;
   background: url("./images/icons/arrowtotop.svg") center no-repeat;

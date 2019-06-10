@@ -4,6 +4,7 @@
     .search-box--mobile {
       display: none;
     }
+    
 }
 
 
@@ -40,9 +41,16 @@
       padding: 0 0 30px;
     }
   
-    .footer-box__controls{
+    .footer-box__controls {
       grid-template-columns: repeat(3, 180px);
       grid-column-gap: 48px;
+    }
+    
+    .footer-box__privacy {
+      display: grid;
+      grid-template-columns: repeat(3, 180px);
+      grid-column-gap: 48px;
+      white-space: nowrap;
     }
 }
 
@@ -97,6 +105,7 @@
   
     .footer-box__privacy {
       display:grid;
+      grid-template-rows: repeat(3, 1fr);
       white-space: nowrap;
       padding-bottom: 0px;
     }
@@ -104,14 +113,9 @@
     .rights,
     .privacy-link,
     .terms  {
+      
     line-height: 13px;
     font-size: 11px;
-    }
-  
-    .btn-to-top {
-      position: absolute;
-      width: 64px;
-      height: 64px;
     }
 }
 
