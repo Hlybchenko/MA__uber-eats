@@ -443,8 +443,9 @@ footer {
   text-decoration: none;
 }
 .footer-box .btn-to-top {
-  display: inline-block;
-  z-index: 0;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
   width: 80px;
   height: 80px;
   background: url("./images/icons/arrowtotop.svg") center no-repeat;
