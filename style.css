@@ -408,7 +408,7 @@ footer {
   background: url("./images/icons/apple.png") no-repeat center;
   width: 121px;
   height: 40px;
-  margin: 0 0 0 40px;
+  margin: 0 40px 0;
 }
 .footer-box .g-play a {
   display: flex;
