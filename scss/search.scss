@@ -1,0 +1,79 @@
+/* SEARCH */
+
+.search-box {  
+    display: flex;
+    width: 948px;
+    height: 79px;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0 0;
+  
+    
+    &__search-container::after {
+      content: "";
+      border-bottom: 1px solid $uber-grey-color;
+      width: 100%;
+      position: absolute;
+      opacity: 0.5;
+    }
+  
+    &__input {  
+      display: flex;
+      padding-bottom: 5px;
+    }
+  
+    &__search-container {
+      width: 100%;
+      position: relative; 
+    }
+  
+    &__del-text-btn {
+      display: flex;
+      border: none;
+      background: none;
+      opacity: 0.2;
+    }
+  
+    &__del-text-btn:hover {
+      opacity: 0.5  ;
+      transform: scale(1.2);
+      font-size: bold;
+      cursor: pointer;
+    }
+  
+    .restaurants-search {
+      display: flex;
+      height: 42px;
+      width: 100%;
+      padding: 10px 3px 10px 30px;
+      font-size: 16px;
+      line-height: 24px;
+      box-sizing: border-box;
+      color: #000000;
+      border: none;
+      cursor: text;
+    }
+  
+    .restaurants-search::placeholder {
+      color: $uber-grey-color;
+      opacity: 0.5;
+    }
+  
+    .restaurants-search:focus {
+      outline: none;
+      border: none;
+    }
+  
+    &__search-img {
+      position: absolute;
+      left: 0px;
+      top: 7px;
+      width: 25px;
+      height: 25px;
+      background-image: url("./images/icons/search.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+    }
+  }
+  
