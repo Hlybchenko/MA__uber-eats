@@ -144,27 +144,4 @@
     .terms {
       text-decoration: none;
     }
-  
-      /* BUTTON  TO TOP  */
-  
-    .btn-to-top {
-      position: absolute;
-      
-      right: 30px;
-      bottom: 30px;
-      width: 80px;
-      height: 80px;
-      background: url("./images/icons/arrowtotop.svg") center no-repeat;
-      opacity: 0.3;
-      background-color: #2a2929;
-      
-    }
-  
-    .btn-to-top:hover {
-      background-color: $uber-green-color;
-      opacity: 0.5;
-      transform: scale(1.1);
-      border-radius: 15px;
-    }
-  }
-  
+}
