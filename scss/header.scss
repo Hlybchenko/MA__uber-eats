@@ -1,0 +1,178 @@
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 948px;
+    height: 72px;
+    
+  
+    
+    &__logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;  
+    }
+  
+    &__logo:hover {
+      transform: scale(1.11) rotate(-1deg);
+    }
+  
+    &__location {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    input, 
+    select, 
+    option {
+      outline: none;
+      cursor:pointer;
+    }
+  
+    &__asap {
+      display: flex;
+      margin: 0 8px;
+      padding: 8px 12px;
+      height: 40px;
+      font-size: 15px;
+      border: 1px solid $uber-grey-color;
+      border-radius: 2px;
+    }
+  
+    &__asap >a {
+      text-decoration: none;
+      color: #1d1d1d;
+    }
+  
+    &__asap:hover {
+      border-radius: 8px;
+      border: 1px solid $uber-green-color;
+    }
+  
+    &__delivery-location {
+      display: flex;
+      position: relative;
+      justify-items: center;
+      align-items: center;
+      margin: 0 8px;
+    }
+  
+    .delivery-location_location-img {
+      display: block;
+      position: absolute;
+      left: 12px;
+      top: 15px;
+      width: 14px;
+      height: 16px;
+      background-image: url("./images/icons/location.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+  
+    .delivery-location_address {
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+      height: 42px;
+      padding: 10px 10px 10px 30px;
+      border: 1px solid $uber-grey-color;
+      border-radius: 2px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #1d1d1d;
+      transition:  0.35s ease;
+      cursor: text;
+    }
+  
+    .delivery-location_address:hover {
+      border-radius: 8px;
+      border: 1px solid $uber-green-color;
+    }
+  
+    &__nav  {
+      display: flex;
+      align-items: center; 
+    }
+  
+  
+    &__auth {
+      display: flex; ;
+      justify-content: space-between;
+    }
+  
+    .auth_signin {
+      display: flex;
+      justify-content: center;
+      width: 80px;
+      height: 40px;
+      margin: 0 8px;
+      border: 1px solid #000;
+      border-radius: 2px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  
+    .auth_signin >a {  
+      font-size: 13px;
+      line-height: 40px;  
+      text-decoration: none;
+      color:#000;
+    }
+  
+    .auth_signin:hover {
+      color: $uber-white-color;
+      border: 1px solid #000;
+      border-radius: 6px;
+      background-color: $uber-green-color;
+      transform: scaleY(1.01);
+    }
+  
+    .auth_register {
+      display: flex;
+      justify-content: center;
+      width: 80px;
+      height: 40px;
+      margin: 0 8px;
+      border: 1px solid #fff;
+      border-radius: 2px;
+      background-color: $uber-background-color;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  
+    .auth_register >a {
+      text-decoration: none;
+      line-height: 40px;  
+      font-size: 13px;
+      color: $uber-white-color;
+    }
+  
+    .auth_register:hover {  
+      background-color: $uber-green-color;
+      color: $uber-white-color;
+      border: 1px solid $uber-grey-color;
+      border-radius: 6px;
+      transform: scaleY(1.01); 
+    }
+  
+    &__basket {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      width: 30px;
+      height: 36px;
+      margin-left: 20px; 
+      background-image: url("./images/icons/basket.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      cursor: pointer;
+    }
+  
+    &__basket:hover {
+      transform: rotate(8deg)  scale(1.3);
+    }
+  
+  }

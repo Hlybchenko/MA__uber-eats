@@ -1,0 +1,88 @@
+/* TITLE */
+  
+.title-box {  
+    display: grid;
+    grid-template-rows: 1;
+    width: 948px;
+    height: 56px;
+    align-items: center;  
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 30px 0 0;
+  }
+  
+
+.catalog-box {
+    display: grid;
+    grid-template-columns: repeat(3, 318px);
+    grid-column-gap: 3px;
+    grid-row-gap: 4px;
+    justify-content: center;
+    padding: 0 0 80px;
+  
+      
+    &__img-box {
+      width: 318px;
+      height: 256px;
+      cursor: pointer;
+    }
+  
+    &__img:hover {
+        transform: scale(1.028);
+    }
+  
+    &__img { 
+      padding: 0 5px;
+    }
+  
+    &__info-box {
+      padding: 16px 0 20px 5px; 
+      cursor: pointer;
+    }
+  
+    &__restaurant-name {
+      font-size: 16px;
+      line-height: 24px;
+      color: #1d1d1d;
+    }
+  
+    &__description {
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    &__currency {
+      display: flex;
+      font-size: 14px;
+      line-height: 21px;
+      color: #626262;
+    }
+  
+    &__food-style {
+      display: flex;  
+    }
+  
+    &__description >ul {
+      font-family: "Roboto", sans-serif;
+      padding: 0;
+      padding-left: 0; 
+      margin: 5px 0; 
+      font-size: 13px;
+      color: #626262;
+    }
+  
+    &__food-style >li {
+      color: #6e6c6c;
+      margin-left: 20px;
+    }
+  
+    &__waiting-time {
+      font-size: 13px;
+      line-height: 21px;
+      color: #292929;
+    }
+  }
