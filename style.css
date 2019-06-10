@@ -219,7 +219,7 @@ footer {
   cursor: text;
 }
 .search-box .restaurants-search::placeholder {
-  color: #626262;
+  color: #e0e0e0;
   opacity: 0.5;
 }
 .search-box .restaurants-search:focus {
