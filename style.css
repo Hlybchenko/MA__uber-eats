@@ -220,7 +220,7 @@ footer {
 }
 .search-box .restaurants-search::placeholder {
   color: #e0e0e0;
-  opacity: 0.5;
+  opacity: 1;
 }
 .search-box .restaurants-search:focus {
   outline: none;
@@ -405,7 +405,7 @@ footer {
 }
 .footer-box .app-store a {
   display: flex;
-  background: url("./images/icons/appStore.png") no-repeat center;
+  background: url("./images/icons/apple.png") no-repeat center;
   width: 121px;
   height: 40px;
   margin-right: 40px;
