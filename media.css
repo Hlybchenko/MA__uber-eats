@@ -65,10 +65,7 @@
     .header-box__basket {
       display: none; 
     }
-  
-    .search-box__del-text-btn {
-      display: none;
-    }
+
   
     .header-box,
     .search-box,

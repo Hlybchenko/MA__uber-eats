@@ -30,7 +30,7 @@
          <a href="#"> <img src="./images/icons/logo.svg" alt="uberEats"> </a>
         </section>
 
-        <section class="header-box__location">         
+        <form class="header-box__location">         
           <select class="header-box__asap">
             <option>ASAP</option>
             <option>TIME</option>
@@ -40,11 +40,11 @@
 
           <div class="header-box__delivery-location">
             <a class="delivery-location_location-img" href="#"></a>
-            <label for="search">
+            <form for="search">
               <input type="text" class="delivery-location_address" placeholder="ul. Tarasivska St, 16">
-            </label>
+            </form>
           </div>
-        </section>
+        </form>
 
         <section class="header-box__nav">
           <div class="header-box__auth">
@@ -56,7 +56,9 @@
             </div>
           </div>
           
-          <div class="header-box__basket"></div> 
+          <div class="header-box__basket">
+            <a href="#"> <img src="./images/icons/basket.png" alt="cart"> </a>
+          </div> 
 
         </section>
 
@@ -69,23 +71,24 @@
 <!-- SEARCH -->
       
       
-      <section class="search-box">
+      <form class="search-box">
         <div class="search-box__search-container">
           <a class="search-box__search-img" href="#"></a>
+          
           <form class="search-box__input">
             <input type="text" autocomplete="off" 
                                class="restaurants-search" 
                                placeholder="Search for restaurant or cuisine">
-            <input class="search-box__del-text-btn" type="reset" value="X">
           </form> 
+        
         </div>
-      </section>
+      </form>
 
 
 <!-- MOBILE-SEARCH -->
 
 
-      <section class="search-box--mobile">         
+      <form class="search-box--mobile">         
           
         <div>
           <p class="search-box_when--mobile">When</p> 
@@ -101,18 +104,17 @@
             <p>To</p>
             <input type="text" 
               class="address--mobile" 
-              value="ul. Tarasivska St, 16">
+              placeholder="ul. Tarasivska St, 16">
           </label>
         </div>
-      </section>
+      </form>
 
 
 <!-- TEXT -->
 
-      <section class="title-box">    
+      <h1 class="title-box">
         Kyiv Restaurants
-      </section>
-
+      </h1>    
 
 <!-- CATALOG-START -->
 
@@ -486,12 +488,12 @@
           <a href="#" class="privacy-link">
             Privacy
           </a>
-          <a href="#" class="terms">
-            Terms
-          </a>      
+            <a href="#" class="terms">
+              Terms
+            </a>
         </div>
 
-
+        
       </div>
 
     </footer>

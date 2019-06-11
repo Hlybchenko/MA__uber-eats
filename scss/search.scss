@@ -6,8 +6,8 @@
     height: 79px;
     align-items: center;
     margin: auto;
-    padding: 10px 0 0;
-  
+    
+     
     
     &__search-container::after {
       content: "";
@@ -25,20 +25,6 @@
     &__search-container {
       width: 100%;
       position: relative; 
-    }
-  
-    &__del-text-btn {
-      display: flex;
-      border: none;
-      background: none;
-      opacity: 0.2;
-    }
-  
-    &__del-text-btn:hover {
-      opacity: 0.5  ;
-      transform: scale(1.2);
-      font-size: bold;
-      cursor: pointer;
     }
   
     .restaurants-search {

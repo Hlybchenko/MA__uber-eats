@@ -161,7 +161,6 @@ footer {
   width: 30px;
   height: 36px;
   margin-left: 20px;
-  background-image: url("./images/icons/basket.png");
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
@@ -193,18 +192,6 @@ footer {
 .search-box__search-container {
   width: 100%;
   position: relative;
-}
-.search-box__del-text-btn {
-  display: flex;
-  border: none;
-  background: none;
-  opacity: 0.2;
-}
-.search-box__del-text-btn:hover {
-  opacity: 0.5;
-  transform: scale(1.2);
-  font-size: bold;
-  cursor: pointer;
 }
 .search-box .restaurants-search {
   display: flex;
