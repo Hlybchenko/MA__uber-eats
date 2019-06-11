@@ -169,7 +169,6 @@ footer {
   transform: rotate(8deg) scale(1.3);
 }
 
-/* SEARCH */
 .search-box {
   display: flex;
   width: 948px;
@@ -427,25 +426,6 @@ footer {
 .footer-box .terms {
   text-decoration: none;
 }
-<<<<<<< HEAD
-=======
-.footer-box .btn-to-top {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-  width: 80px;
-  height: 80px;
-  background: url("./images/icons/arrowtotop.svg") center no-repeat;
-  opacity: 0.3;
-  background-color: #2a2929;
-}
-.footer-box .btn-to-top:hover {
-  background-color: #11933a;
-  opacity: 0.5;
-  transform: scale(1.1);
-  border-radius: 15px;
-}
->>>>>>> 21c207f67793d3e05aeb24751b0d9c4578087957
 
 /* MOBILE-SEARCH */
 .search-box--mobile {
