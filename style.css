@@ -160,7 +160,7 @@ footer {
   align-items: center;
   width: 30px;
   height: 36px;
-  margin-left: 20px;
+  margin: auto;
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
@@ -176,7 +176,6 @@ footer {
   height: 79px;
   align-items: center;
   margin: auto;
-  padding: 10px 0 0;
 }
 .search-box__search-container::after {
   content: "";
