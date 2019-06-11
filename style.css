@@ -160,8 +160,7 @@ footer {
   align-items: center;
   width: 30px;
   height: 36px;
-  margin-left: 20px;
-  background-image: url("./images/icons/basket.png");
+  margin: auto;
   background-repeat: no-repeat;
   background-position: center center;
   cursor: pointer;
@@ -177,7 +176,6 @@ footer {
   height: 79px;
   align-items: center;
   margin: auto;
-  padding: 10px 0 0;
 }
 .search-box__search-container::after {
   content: "";
@@ -193,18 +191,6 @@ footer {
 .search-box__search-container {
   width: 100%;
   position: relative;
-}
-.search-box__del-text-btn {
-  display: flex;
-  border: none;
-  background: none;
-  opacity: 0.2;
-}
-.search-box__del-text-btn:hover {
-  opacity: 0.5;
-  transform: scale(1.2);
-  font-size: bold;
-  cursor: pointer;
 }
 .search-box .restaurants-search {
   display: flex;
@@ -441,6 +427,25 @@ footer {
 .footer-box .terms {
   text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+.footer-box .btn-to-top {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 80px;
+  height: 80px;
+  background: url("./images/icons/arrowtotop.svg") center no-repeat;
+  opacity: 0.3;
+  background-color: #2a2929;
+}
+.footer-box .btn-to-top:hover {
+  background-color: #11933a;
+  opacity: 0.5;
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+>>>>>>> 21c207f67793d3e05aeb24751b0d9c4578087957
 
 /* MOBILE-SEARCH */
 .search-box--mobile {

@@ -1,0 +1,17 @@
+
+@media screen and (max-width: 319px) {
+    .search-box--mobile {
+      display: none;
+    }
+  
+    body {
+      width: 948px;
+      padding-left: 2px;
+    }
+  
+    .footer-box__controls {
+      display: grid;
+      grid-template-columns: repeat(3, 304px);
+      grid-column-gap: 16px;
+    }
+}
