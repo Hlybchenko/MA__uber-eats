@@ -205,7 +205,7 @@ footer {
   cursor: text;
 }
 .search-box .restaurants-search::placeholder {
-  color: #e0e0e0;
+  color: #000;
   opacity: 0.5;
 }
 .search-box .restaurants-search:focus {
@@ -302,7 +302,6 @@ footer {
   width: 948px;
   margin: auto;
   padding: 0;
-  /* BUTTON  TO TOP  */
 }
 .footer-box__logo {
   width: 100%;
@@ -427,22 +426,6 @@ footer {
 .footer-box .privacy-link,
 .footer-box .terms {
   text-decoration: none;
-}
-.footer-box .btn-to-top {
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
-  width: 80px;
-  height: 80px;
-  background: url("./images/icons/arrowtotop.svg") center no-repeat;
-  opacity: 0.3;
-  background-color: #2a2929;
-}
-.footer-box .btn-to-top:hover {
-  background-color: #11933a;
-  opacity: 0.5;
-  transform: scale(1.1);
-  border-radius: 15px;
 }
 
 /* MOBILE-SEARCH */
