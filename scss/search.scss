@@ -38,8 +38,13 @@
     }
   
     .restaurants-search::placeholder {
+<<<<<<< HEAD
       color: $uber-grey-color;
       opacity: 1; 
+=======
+      color: #000;
+      opacity: 0.5;
+>>>>>>> 40dacdb93fda408f6d7f41739e4f6b74803a76b8
     }
   
     .restaurants-search:focus {
