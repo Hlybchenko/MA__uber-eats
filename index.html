@@ -27,12 +27,12 @@
 
       <div class="header-box">
 
-        <div class="header-box__logo">
+        <div class="header-box__logo" tabindex="1">
          <a href="#"> <img src="./images/icons/logo.svg" alt="uberEats"> </a>
         </div>
 
         <form class="header-box__location">         
-          <select class="header-box__asap">
+          <select class="header-box__asap" tabindex="2">
             <option>ASAP</option>
             <option>TIME</option>
           </select>
@@ -42,23 +42,28 @@
           <div class="header-box__delivery-location">
             <a class="delivery-location_location-img" href="#"></a>
             <label for="search">
-              <input type="text" class="delivery-location_address" placeholder="ul. Tarasivska St, 16">
+              <input type="text" 
+                class="delivery-location_address" 
+                placeholder="ul. Tarasivska St, 16"
+                tabindex="3">
             </label>
           </div>
         </form>
 
         <div class="header-box__nav">
           <div class="header-box__auth">
-            <div class="auth_signin">
+            <div class="auth_signin" tabindex="4">
               <a href="#">Sign in</a>
             </div>
-            <div class="auth_register">
+            <div class="auth_register" tabindex="5">
               <a href="#">Register</a>
             </div>
           </div>
           
-          <div class="header-box__basket">
-            <a href="#"> <img src="./images/icons/basket.png" alt="cart"> </a>
+          <div class="header-box__basket" tabindex="6" >
+            <a href="#"> <img src="./images/icons/basket.png" 
+              alt="cart"> 
+            </a>
           </div> 
 
         </div>
@@ -79,7 +84,8 @@
           <label class="search-box__input">
             <input type="text" autocomplete="off" 
                                class="restaurants-search" 
-                               placeholder="Search for restaurant or cuisine">
+                               placeholder="Search for restaurant or cuisine"
+                               tabindex="7" >
           </label> 
         
         </div>
@@ -93,7 +99,7 @@
           
         <div>
           <p class="search-box_when--mobile">When</p> 
-          <select class="search-box__asap--mobile">
+          <select class="search-box__asap--mobile" tabindex="8" >
             <option>ASAP</option>
             <option>TIME</option>
           </select>
@@ -103,9 +109,12 @@
           <a class="location-img--mobile" href="#"></a>
           <label for="search--mobile">
             <p>To</p>
-            <input type="text" 
-              class="address--mobile" 
-              placeholder="ul. Tarasivska St, 16">
+            <div tabindex="8" >
+              <input 
+                type="text" 
+                class="address--mobile" 
+                placeholder="ul. Tarasivska St, 16">
+              </div> 
           </label>
         </div>
       </form>
@@ -127,7 +136,8 @@
           <div class="catalog-box__img-box">
             <img class="catalog-box__img" 
                   src="./images/mcdonalds.jpg" 
-                  alt="MacDonalds">
+                  alt="MacDonalds"
+                  tabindex="8">
           </div>
 
           <div class="catalog-box__info-box">
@@ -153,11 +163,12 @@
           
     <!--  -->
 
-        <div class="catalog-box__reastor-card">
+        <div class="catalog-box__reastor-card" >
           <div class="catalog-box__img-box">
             <img class="catalog-box__img" 
                   src="./images/wokwei.jpg" 
-                  alt="WOKWEI">
+                  alt="WOKWEI"
+                  tabindex="9">
           </div>
 
           <div class="catalog-box__info-box">
@@ -186,11 +197,12 @@
 
     <!--  -->
 
-        <div class="catalog-box__reastor-card">
+        <div class="catalog-box__reastor-card" >
           <div class="catalog-box__img-box">
             <img  class="catalog-box__img" 
                   src="./images/yizha.jpg" 
-                  alt="YIZHA">
+                  alt="YIZHA"
+                  tabindex="10">
           </div>
 
           <div class="catalog-box__info-box">
@@ -222,11 +234,12 @@
           
     <!--  -->
 
-          <div class="catalog-box__reastor-card">    
+          <div class="catalog-box__reastor-card" >    
             <div class="catalog-box__img-box">
               <img class="catalog-box__img" 
                     src="./images/musafur.jpg" 
-                    alt="Musafir">
+                    alt="Musafir"
+                    tabindex="11">
             </div>
 
             <div class="catalog-box__info-box">
@@ -252,11 +265,12 @@
           
     <!--  -->
 
-          <div class="catalog-box__reastor-card">  
+          <div class="catalog-box__reastor-card" >  
             <div class="catalog-box__img-box">
               <img class="catalog-box__img" 
                     src="./images/wokwei2.jpg" 
-                    alt="WOKWEI">
+                    alt="WOKWEI"
+                    tabindex="12">
             </div>
 
             <div class="catalog-box__info-box">
@@ -286,11 +300,12 @@
 
     <!--  -->
 
-          <div class="catalog-box__reastor-card">
+          <div class="catalog-box__reastor-card" >
             <div class="catalog-box__img-box">
               <img class="catalog-box__img" 
                     src="./images/milk-bar.jpg" 
-                    alt="MilkBar">
+                    alt="MilkBar"
+                    tabindex="13">
             </div>
 
             <div class="catalog-box__info-box">
@@ -319,11 +334,12 @@
           
     <!--  -->
             
-          <div class="catalog-box__reastor-card">
+          <div class="catalog-box__reastor-card" >
             <div class="catalog-box__img-box">
               <img class="catalog-box__img" 
                     src="./images/mimosa-brooklyn-pizza.jpg" 
-                    alt="Mimosa Brooklyn Pizza">
+                    alt="Mimosa Brooklyn Pizza"
+                    tabindex="14">
             </div>
 
             <div class="catalog-box__info-box">
@@ -355,11 +371,12 @@
           
     <!--  -->
 
-          <div class="catalog-box__reastor-card">  
+          <div class="catalog-box__reastor-card" >  
             <div class="catalog-box__img-box">
               <img class="catalog-box__img" 
                     src="./images/to-be.jpg" 
-                    alt="ToBe">
+                    alt="ToBe"
+                    tabindex="15">
             </div>
             <div class="catalog-box__info-box">
               <span class="catalog-box__restaurant-name">
@@ -394,7 +411,8 @@
             <div class="catalog-box__img-box">
               <img class="catalog-box__img" 
                     src="./images/druzi-cafe.jpg" 
-                    alt="Druzi">
+                    alt="Druzi"
+                    tabindex="16">
             </div>
 
             <div class="catalog-box__info-box">
@@ -434,7 +452,7 @@
     <footer>
       <div class="footer-box">
         <div class="footer-box__logo">
-          <a href="#"></a>
+          <a  tabindex="17" href="#"></a>
         </div>
         
         <div class="footer-box__controls">
@@ -442,33 +460,33 @@
           <div class="footer-box__nav">
           
             <div class="language">
-              <select name="language">
-                <option value="ukraine">українська</option>
-                <option value="russian">русский</option>
+              <select name="language"  tabindex="18">
                 <option value="english">english</option>
+                <option value="russian">русский</option>
+                <option value="ukraine">українська</option>
               </select>
             </div>
             
-            <div class="social">
-              <a href="#/"></a>
+            <div class="social" tabindex="19" >
+              <a href="#"></a>
             </div>
 
           </div>
               
           <div class="footer-box__nav">
             <ul>
-              <li class="footer-link"><a href="#">About UberEats</a></li>
-              <li class="footer-link"><a href="#">Become a Delivery Partner</a></li>
-              <li class="footer-link"><a href="#">Become a Restaurant Partner</a></li>
+              <li class="footer-link"><a tabindex="20" href="#">About UberEats</a></li>
+              <li class="footer-link"><a tabindex="21" href="#">Become a Delivery Partner</a></li>
+              <li class="footer-link"><a tabindex="22" href="#">Become a Restaurant Partner</a></li>
             </ul>
           </div>
       
           <div class="footer-box__nav">
             <ul>
-              <li class="footer-link"><a href="#">See all cities</a></li>
-              <li class="footer-link"><a href="#">Pricing</a></li>
-              <li class="footer-link"><a href="#">Help</a></li>
-              <li class="footer-link"><a href="#">FAQs</a></li>
+              <li class="footer-link"><a tabindex="23" href="#">See all cities</a></li>
+              <li class="footer-link"><a tabindex="24" href="#">Pricing</a></li>
+              <li class="footer-link"><a tabindex="25" href="#">Help</a></li>
+              <li class="footer-link"><a tabindex="26" href="#">FAQs</a></li>
             </ul>
           </div>
 
@@ -476,21 +494,21 @@
 
         <div class="stores">
           <div class="app-store">
-            <a href="#"></a>
+            <a tabindex="27" href="#"></a>
           </div>
           <div class="g-play">
-            <a href="#"></a>
+            <a tabindex="28" href="#"></a>
           </div>
         </div>
         <div class="footer-box__privacy">
           <a class="rights">
             &copy 2019 Uber Technologies Inc
           </a>
-          <a href="#" class="privacy-link">
-            Privacy
+          <a  href="#" class="privacy-link">
+            <p tabindex="29">Privacy</p>
           </a>
-            <a href="#" class="terms">
-              Terms
+            <a  href="#" class="terms">
+             <p tabindex="30" >Terms</p> 
             </a>
         </div>
 

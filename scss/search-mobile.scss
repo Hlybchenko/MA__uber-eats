@@ -1,10 +1,13 @@
+.search-box--mobile *:focus {
+  outline: 2px solid $uber-green-color;
+}
 
   /* MOBILE-SEARCH */
   
   .search-box--mobile {
     display: flex;
     justify-content: space-between;
-    width: 310px;
+    width: 91%;
     margin: auto;
     font-size: 11px;
     line-height: 13px;

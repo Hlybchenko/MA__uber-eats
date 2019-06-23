@@ -1,3 +1,7 @@
+.footer-box  *:focus {
+  outline: 1px solid $uber-green-color;
+    }
+
 
 .footer-box {
   width: 948px;
@@ -73,6 +77,8 @@
       
   .social  {
     background: url("./images/icons/social.png") no-repeat center;
+    -webkit-background-size: contain;
+    background-size: contain; 
     width: 92px;
     height: 60px;
     cursor: pointer;
@@ -119,10 +125,20 @@
 
   &__privacy{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     height: 90px;
   }
+
+  .g-play a:focus {
+    outline: 2px solid $uber-green-color;
+    transform: scale(1.024)
+    }
+
+    .app-store a:focus {
+      outline: 2px solid $uber-green-color;
+      transform: scale(1.024)
+      }
 
   .rights,
   .privacy-link,
@@ -144,4 +160,5 @@
   .terms {
     text-decoration: none;
   }
+
 }
