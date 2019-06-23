@@ -9,6 +9,123 @@
   padding: 0;
 
     
+<<<<<<< HEAD
+    &__nav {
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .language {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: row;
+      margin-bottom: 33px; 
+      cursor: pointer;
+    }
+  
+    .language >select {
+      width: 176px;
+      height: 40px;
+      padding: 0 10%;
+      background: #3B3B3B;
+      border-radius: 2px;
+      color: $uber-white-color;
+      text-transform: uppercase;
+      text-align: center;
+      text-align-last: center;  
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none; 
+    }
+  
+    .language::before {
+      content: "";
+      position: absolute;
+      background: url("./images/icons/world.svg") no-repeat center;
+      width: 16px;
+      height: 16px;
+      top: 10px;
+      left: 16px; 
+    }
+        
+    .social  {
+      background: url("./images/icons/social.png") no-repeat center;
+      width: 92px;
+      height: 60px;
+      cursor: pointer;
+    }
+  
+    .footer-link {
+      display: flex;
+      align-items: flex-start ;
+      margin-bottom: 23px;
+      list-style: none;
+    }
+  
+    .footer-link >a {
+      font-family: "Roboto", sans-serif;
+      font-size: 13px;
+      line-height: 15px;
+      text-decoration: none;
+      color: $uber-white-color;
+    }
+  
+    .stores {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 120px;
+      border-bottom: 1px solid $uber-footer-line-color;
+      width: 100%;
+    }
+  
+    .app-store a {
+      display: flex;
+      background: url("./images/icons/apple.png") no-repeat center;
+      width: 121px;
+      height: 40px;
+      margin: 0 40px 0 0;
+    }
+  
+    .g-play a {
+      display: flex;
+      background: url("./images/icons/playmarket.png") no-repeat center;
+      width: 135px;
+      height: 40px;
+    }
+  
+    &__privacy{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 90px;
+    }
+  
+    .rights,
+    .privacy-link,
+    .terms {
+      display: flex;
+      width: 25%;
+      flex-grow: 1;
+      justify-content: flex-start;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 13px;
+      align-items: flex-end;
+      color: $uber-white-color ;
+    }
+  
+    .privacy-link,
+    .terms {
+      text-decoration: none;
+    }
+}
+=======
   &__logo {
     width: 100%;
     border-bottom: 1px solid $uber-footer-line-color;
@@ -160,5 +277,10 @@
   .terms {
     text-decoration: none;
   }
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> 40dacdb93fda408f6d7f41739e4f6b74803a76b8
+>>>>>>> 259536d7de0db83bb0dc8cd3e089d3fc60298e36

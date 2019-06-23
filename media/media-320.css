@@ -6,12 +6,17 @@
     .header-box__basket {
       display: none; 
     }
+<<<<<<< HEAD
 
     .header-box, 
     .footer-box{
       max-width: 92%;
     }
     
+=======
+  
+    .header-box,
+>>>>>>> 259536d7de0db83bb0dc8cd3e089d3fc60298e36
     .search-box,
     .title-box {  
       width: 91%;

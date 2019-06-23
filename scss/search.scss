@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 /* SEARCH */
 .search-box  *:focus {
   outline: 1px solid $uber-green-color;
 }
+=======
+>>>>>>> 259536d7de0db83bb0dc8cd3e089d3fc60298e36
 
 .search-box {  
   display: flex;
@@ -42,8 +45,13 @@
     }
   
     .restaurants-search::placeholder {
+<<<<<<< HEAD
+      color: $uber-grey-color;
+      opacity: 1; 
+=======
       color: #000;
       opacity: 0.5;
+>>>>>>> 40dacdb93fda408f6d7f41739e4f6b74803a76b8
     }
   
     .restaurants-search:focus {
