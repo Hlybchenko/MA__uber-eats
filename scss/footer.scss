@@ -2,14 +2,12 @@
   outline: 1px solid $uber-green-color;
     }
 
-
 .footer-box {
   width: 948px;
   margin: auto;
   padding: 0;
 
     
-<<<<<<< HEAD
     &__nav {
       display: block;
       align-items: center;
@@ -124,8 +122,7 @@
     .terms {
       text-decoration: none;
     }
-}
-=======
+
   &__logo {
     width: 100%;
     border-bottom: 1px solid $uber-footer-line-color;
@@ -252,10 +249,10 @@
     transform: scale(1.024)
     }
 
-    .app-store a:focus {
-      outline: 2px solid $uber-green-color;
-      transform: scale(1.024)
-      }
+  .app-store a:focus {
+    outline: 2px solid $uber-green-color;
+    transform: scale(1.024)
+    }
 
   .rights,
   .privacy-link,
@@ -277,10 +274,4 @@
   .terms {
     text-decoration: none;
   }
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> 40dacdb93fda408f6d7f41739e4f6b74803a76b8
->>>>>>> 259536d7de0db83bb0dc8cd3e089d3fc60298e36

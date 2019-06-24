@@ -6,17 +6,12 @@
     .header-box__basket {
       display: none; 
     }
-<<<<<<< HEAD
 
     .header-box, 
     .footer-box{
       max-width: 92%;
     }
     
-=======
-  
-    .header-box,
->>>>>>> 259536d7de0db83bb0dc8cd3e089d3fc60298e36
     .search-box,
     .title-box {  
       width: 91%;
@@ -68,7 +63,7 @@
   
     .footer-box__privacy {
       display:grid;
-      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(1, 95%);
       white-space: nowrap;
       padding-bottom: 0px;
     }

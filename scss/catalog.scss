@@ -14,14 +14,11 @@
     padding: 30px 0 0;
   }
   
-<<<<<<< HEAD
 .catalog-box *:focus {
   outline: 2px solid $uber-green-color;
   transform: scale(1.021)
   }
 
-=======
->>>>>>> 259536d7de0db83bb0dc8cd3e089d3fc60298e36
 .catalog-box {
     display: grid;
     grid-template-columns: repeat(3, 318px);
